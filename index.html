@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/e625c7cbb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .font-manrope {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+    <title>Fruit Brust</title>
+  </head>
+  <body>
+    <header>
+      <div
+        class="navbar bg-base-100 max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 lg:bg-[#F85559] rounded-full"
+      >
+        <div class="navbar-start hidden lg:flex">
+          <ul
+            class="menu menu-horizontal px-1 text-white gap-4 text-sm font-extrabold"
+          >
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Shop</p>
+            <p>All Fruits</p>
+          </ul>
+        </div>
+        <div class="navbar-center gap-2">
+          <img src="images/logo.png" alt="" />
+          <a class="normal-case text-2xl lg:text-white font-extrabold"
+            >Fruit Burst</a
+          >
+        </div>
+
+        <div class="navbar-end">
+          <div class="relative">
+            <input
+              type="text"
+              placeholder="Search here "
+              class="input input-bordered w-full max-w-xs rounded-full pr-10 hidden lg:flex"
+            />
+            <div
+              class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none hidden lg:flex"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box"
+          >
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Shop</p>
+            <p>All Fruits</p>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main></main>
+  </body>
+</html>
