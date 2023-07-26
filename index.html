@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
       rel="stylesheet"
@@ -34,7 +35,7 @@
       >
         <div class="navbar-start hidden lg:flex">
           <ul
-            class="menu menu-horizontal px-1 text-white gap-4 text-sm font-extrabold"
+            class="menu menu-horizontal px-1 text-white gap-4 text-sm font-extrabold cursor-pointer"
           >
             <p>Home</p>
             <p>About Us</p>
@@ -100,7 +101,7 @@
           <div class="carousel h-[250px] lg:h-[500px]">
             <div id="slide1" class="carousel-item relative w-full">
               <img class="w-full" src="images/banner1.png" />
-
+              <div class="absolute inset-0 bg-black opacity-50"></div>
               <div
                 class="absolute inset-0 flex flex-col items-center mt-10 lg:mt-28"
               >
@@ -127,7 +128,7 @@
 
             <div id="slide2" class="carousel-item relative w-full">
               <img class="w-full" src="images/banner2.png" />
-
+              <div class="absolute inset-0 bg-black opacity-50"></div>
               <div
                 class="absolute inset-0 flex flex-col items-center justify-center"
               >
@@ -158,6 +159,7 @@
             </div>
             <div id="slide3" class="carousel-item relative w-full">
               <img class="w-full" src="images/banner3.png" />
+              <div class="absolute inset-0 bg-black opacity-50"></div>
 
               <div
                 class="absolute inset-0 flex flex-col items-center justify-center"
@@ -189,6 +191,7 @@
 
             <div id="slide4" class="carousel-item relative w-full">
               <img class="w-full" src="images/banner4.png" />
+              <div class="absolute inset-0 bg-black opacity-50"></div>
 
               <div
                 class="absolute inset-0 flex flex-col items-center justify-center"
@@ -705,7 +708,7 @@
           </div>
         </div>
         <button class="btn bg-[#F85559] text-white ml-32 lg:ml-[500px] mt-10">
-          Show All
+          Shop All
         </button>
       </section>
 
@@ -740,7 +743,7 @@
                   Awlad Hossain
                 </h1>
                 <p class="text-sm text-white text-center mt-2">Fruits Expert</p>
-                <div class="flex gap-5 justify-center mt-2">
+                <div class="flex gap-5 justify-center mt-2 cursor-pointer">
                   <i
                     class="fa-brands fa-facebook text-xl"
                     style="color: #e03800"
@@ -766,7 +769,7 @@
                   Safia Chowdhury
                 </h1>
                 <p class="text-sm text-white text-center mt-2">Fruits Expert</p>
-                <div class="flex gap-5 justify-center mt-2">
+                <div class="flex gap-5 justify-center mt-2 cursor-pointer">
                   <i
                     class="fa-brands fa-facebook text-xl"
                     style="color: #e03800"
@@ -792,7 +795,7 @@
                   Rokib Hossain
                 </h1>
                 <p class="text-sm text-white text-center mt-2">Fruits Expert</p>
-                <div class="flex gap-5 justify-center mt-2">
+                <div class="flex gap-5 justify-center mt-2 cursor-pointer">
                   <i
                     class="fa-brands fa-facebook text-xl"
                     style="color: #e03800"
@@ -818,7 +821,7 @@
                   Chaity
                 </h1>
                 <p class="text-sm text-white text-center mt-2">Fruits Expert</p>
-                <div class="flex gap-5 justify-center mt-2">
+                <div class="flex gap-5 justify-center mt-2 cursor-pointer">
                   <i
                     class="fa-brands fa-facebook text-xl"
                     style="color: #e03800"
@@ -909,7 +912,11 @@
             </div>
           </div>
           <div class="mx-2 lg:order-2 order-1">
-            <img src="images/whychoose1.png" alt="" />
+            <img
+              class="block ml-0 md:ml-20 lg:ml-0"
+              src="images/whychoose1.png"
+              alt=""
+            />
           </div>
           <div class="order-3">
             <div class="flex items-center flex-col lg:flex-row-reverse">
@@ -988,7 +995,7 @@
         <a class="link link-hover">My Account</a>
       </div>
 
-      <div class="grid grid-flow-col gap-4 text-white">
+      <div class="grid grid-flow-col gap-4 text-white cursor-pointer">
         <i class="fa-brands fa-twitter text-2xl"></i>
         <i class="fa-brands fa-facebook text-2xl"></i>
         <i class="fa-brands fa-youtube text-2xl"></i>
